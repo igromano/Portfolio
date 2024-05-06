@@ -19,7 +19,7 @@ header{
 }
 section{
     background-color: rgb(96, 96, 96);
-    height: 680px;
+    height: 1250px;
     width: 1200px;
     margin-top: 25px;
     padding-top: 50px;
@@ -65,14 +65,14 @@ ul li{
     width: 300px;
 }
 #imgAcercaDe{
-    height: 270px;
+    height: 290px;
     width: 435px;
     margin-left: 10px;
     float: left;
     background-color: rgb(44, 44, 44);
     border-radius: 3px;
 }
-#imgAcercaDe p{
+#imgAcercaDe p, #formulario p{
     font-size: 45px;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -84,7 +84,7 @@ ul li{
 }
 #acercaDe{
     background-color: orange;
-    height: 270px;
+    height: 290px;
     width: 740px;
     margin-right: 10px;
     float: right;
@@ -172,4 +172,24 @@ footer p{
     color: orange;
     margin-left: 35px;
     padding-top: 18px;
+}
+#formulario{
+    width: 650px;
+    height: 450px;
+    background-color: rgb(44, 44, 44);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal; 
+    color: whitesmoke;
+}
+.form-group, button{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+button{
+    float: right;
+    margin-top: 25px;
 }
