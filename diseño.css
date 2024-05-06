@@ -1,7 +1,5 @@
 body{
     background-color: #858585;
-    /* width: 500px;
-    height: 700px; */
     height: 1500px;
     width: 1200px;
     margin-left: auto;
@@ -21,7 +19,7 @@ header{
 }
 section{
     background-color: rgb(96, 96, 96);
-    height: 630px;
+    height: 680px;
     width: 1200px;
     margin-top: 25px;
     padding-top: 50px;
@@ -32,13 +30,19 @@ section{
 }
 #infoPersonal p{
     color: whitesmoke;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
     font-size: 20px;
     padding-left: 25px;
 }
 p#nombre{
     color: orange;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
     font-size: 50px;
     font-weight: bolder;
     padding-left: 45px;
@@ -46,27 +50,28 @@ p#nombre{
 ul li{
     color: whitesmoke;
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
 }
 #contFotoPpal{
     height: 275px;
-    /* width: 450px; */
     margin-right: 150px;
     float: right;
     position: relative;
-    /* padding-top: 25px; */
 }
 #contFotoPpal img{
     width: 300px;
 }
 #imgAcercaDe{
-    background-color: azure;
     height: 270px;
-    width: 445px;
+    width: 435px;
+    margin-left: 10px;
     float: left;
     background-color: rgb(44, 44, 44);
+    border-radius: 3px;
 }
-
 #imgAcercaDe p{
     font-size: 45px;
     font-family: "Roboto Mono", monospace;
@@ -77,45 +82,48 @@ ul li{
     margin-top: 100px;
     text-align: center;
 }
-
 #acercaDe{
-    background-color: darkgoldenrod;
+    background-color: orange;
     height: 270px;
-    width: 750px;
+    width: 740px;
+    margin-right: 10px;
     float: right;
+    opacity: 0.7;
+    border-radius: 3px;
 }
 #acercaDe p{
     color: black;
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    /* text-align: justify; */
+    text-align: justify;
     padding-left: 10px;
+    padding-right: 10px;
 }
 #contExperiencias{
     width: 1100px;
-    height: 275px;
+    height: 280px;
     margin-left: 50px;
     margin-top: 50px;
     background-color: rgb(44, 44, 44);
     display: inline-block;
+    border-radius: 5px;
+}
+#contExperiencias li{
+    margin-top: 20px;
 }
 #contExperiencias ul li img{
-    /* margin-top: 15px; */
-    width: 105px;
+    width: 100px;
     float: inline-start;
     border-radius: 15px;
-    margin-left: 55px;
+    margin-left: 25px;
 }
 #contExperiencias ul li img:hover{
-    /* margin-top: 15px; */
-    margin-right: 3px;
-    width: 105px;
-    float: left;
     opacity: 0.8;
     box-shadow: 7px 8px 9px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow .35s ease-in-out;
 }
 #contExperiencias p{
     font-size: 35px;
@@ -130,7 +138,6 @@ ul li{
     list-style-type: none;
 }
 footer{
-    /* background-color: rgb(235, 7, 7); */
     background: linear-gradient(
         55deg,
         rgba(0, 0, 0, 1) 17%,
@@ -149,7 +156,7 @@ footer{
 }
 #contacto img{
     width: 55px;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-right: 20px;
 }
 #contacto img:hover{
@@ -164,4 +171,5 @@ footer p{
     font-style: normal;  
     color: orange;
     margin-left: 35px;
+    padding-top: 18px;
 }
